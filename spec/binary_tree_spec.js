@@ -58,6 +58,10 @@ describe("BinTree", function(){
       binTree.insert(4);
       expect(binTree.left).not.toBe(null);
       expect(binTree.left.value).toEqual(4);
+
+      // binTree.insert(5);
+      // expect(binTree.right).not.toBe(null);
+      // expect(binTree.right.value).toEqual(4);
     });
 
     it("should add BinTree to this.right for newValue greater than this.value",function(){
